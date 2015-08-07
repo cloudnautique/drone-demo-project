@@ -1,3 +1,5 @@
 image: rancher/dind:v0.5.0
+services:
+  - redis
 script:
   - ./ci
